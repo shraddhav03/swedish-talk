@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swedish Chef Speak </title>
+</head>
+<style>
+body{
+    margin:0;
+}
+textarea{
+    display: inline-block;
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 30px auto;
+    padding: 1rem;
+    
+}
+
+#output{
+    display: inline-block;
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+    align-items: center;
+}
+
+h1,footer{
+    border: 1px solid black;
+    background-color: aqua;
+    height: 10vh;
+    width: 100%;
+    margin: 0; 
+    padding: 20px 0;
+    text-align: center;
+}
+h3{
+    margin: 30px;
+    padding: 1rem;
+    display:block;
+}
+#btn-translate{
+    font-size: large;
+    margin: 2rem;
+    background-color: aqua;
+}
+section{
+    text-align: center;
+}
+
+#footer-div{
+    display:inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    width: 70%;
+    border: 0px;
+}
+
+/* p{
+    /* text-align: center; */
+    display:block
+} */
+
+</style>
+</head>
+<body>
+<section>
+<h1>Swedish Chef Speak</h1>
+
+<div style="font-size:larger; margin:1rem;">Input here 👇</div>
+
+<textarea id="txt-input"
+placeholder="put your sentence in english and convert it to chefs language."></textarea>
+<button id="btn-translate">Translate</button>
+
+<div style="font-size:larger; margin:1rem;">Output will come here 👇</div>
+<div id="output"></div>
+
+<script src="app.js" type="text/javascript"></script>
+</section>
+<footer class="footer">
+    <div class="footer-div">
+            <p>
+                About: Convert from English to Swedish chef Speak. 
+                The Swedish Chef is a Muppet character that 
+                appeared on The Muppet Show. The Swedish 
+                Chef does not speak any known language, but 
+                his nonsense words are so widley interpreted 
+                as Swedish-sounding.
+            </p>
+        
+        </div>
+</footer>
+</body>
+</html>
